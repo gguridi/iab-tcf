@@ -27,3 +27,18 @@ def test_decode_v1(file):
 def test_decode_v2(file):
     data = load_seed(file)
     assert decode(data["consent"]).version == 2
+
+
+def test_decode_raises_exception_if_consent_is_empty():
+    with pytest.raises(Exception, match="Unable to process an empty consent"):
+        decode("")
+
+
+def test_decode_raises_exception_if_consent_is_not_base64():
+    with pytest.raises(ValueError):
+        decode("@£$%^")
+
+
+def test_decode_raises_exception_if_consent_version_is_not_one_or_two():
+    with pytest.raises(Exception, match="Unable to process a consent with version 47"):
+        decode("validbase64")
