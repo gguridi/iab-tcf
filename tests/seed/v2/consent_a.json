@@ -1,0 +1,2736 @@
+{
+    "consent": "CG6MJgNIvJb0TAUAEBENAzCMAFvAAG7AAAJYGUlUcVlfByPiu55Ad8JQeAgftrYDE6QzDgEJs8wJQB9WxJwQpEMgKBX4BoIIiRYEsnLAAAYkHAFcDQAAQIkVqSCsYkyMCyFCJJJEghIKM2ZYGG0OkcVQIRAY4wMsHeYAA2OrevzrigZOQCYQFYAAkJQwEg0KRQIgQADAgUA4AIKEYUiSQ0JHBDMjAINAAAAEBiAhAgAAgCgBgAAAgAASEBACACAgEAAAAgABACNAQgAAkAQSAEAQBAAKgIEgBEEEoAgBgMBACgAARIpFBIIDQgAWAAEAAwAPgArAB3AH4AToA8QCEgEtAKSCgBwABABSAFwAXYAzAB_QFTBAEIACAAFAAcAA8AC0AGQAOwApgBzAD0AIaASoBLACaAGGAMgAewA-AB9gEIAI0AVAA4AB8gEVAI7ATEAmUBSIC2AF5AL-AYMAwggAJAAWAEEAWIBnADqAK-AW0AuABk4cAUAA4AEQAJwAkgDnAL8AtEBcQDIgGSBgB4AEgAngCJAHkARgAkwBKwCvAG8AOOAeoBJYCbAFigLoJQCAAKACIAI4AWkAxQBuAEXgJECQAwAKgKwAYeUAIAAXAAyACoALgAiwBJgCjAFKAVsBJACmwFbALkAXcAxkBkBSAKACAAGgA0gChgLtHAEAAUQBGAEcALAAmABsgDvAJaAdMBQgChwFLgKsAWyAxIBjEDHAMdGAAQAWEgBYAMQAhABMACgAG0ApoBZwFUgLxAXmAx4dAPAB5AEMARAAqgCEAFIANEAcQA_QCUgFiALyAYQA2gC7wGGlQAIATSYAIAKgCmRIAYALYAYgA3gFZANQAusWACADMAjoUAEADwAMoAfIBaBUAEARw0AIAJkAaoA4AEgjwBgArQBZQDjAOQAdYA8QDbAHtASiAq8BYgCyQF2BoA4AywBqAFLAKuAawBDYCdiEAUAb4BAwC5gHoAU0RADgEuAJwAV-A_YD-AIiAS8AvYRACAYEAwkA.IGVtd_X9fb2vj-_599_t0eY1f9_63t-wzjheNs-8NyZ_X_J4Xv2MyvB34pqYKmR4kunbBAQdtHGncTQgBwIlVqTLsYk2MjzNKJ7JEmlsbe2dYGH9Pn8XT_ZKZ70-v___7v3______7oA",
+	"core": {
+		"version": 2,
+		"created": "1993-07-05T11:23:32",
+		"lastUpdated": "1999-09-23T13:34:57",
+		"cmpId": 20,
+		"cmpVersion": 4,
+		"consentScreen": 1,
+		"consentLanguage": "EN",
+		"vendorListVersion": 51,
+		"policyVersion": 2,
+		"isServiceSpecified": false,
+		"useNonStandardStacks": false,
+		"specialFeatureOptins": {
+			"1": true,
+			"2": true
+		},
+		"purposeConsents": {
+			"2": true,
+			"4": true,
+			"5": true,
+			"7": true,
+			"8": true,
+			"9": true,
+			"10": true
+		},
+		"purposeLegitimateInterests": {
+			"2": true,
+			"3": true,
+			"5": true,
+			"6": true,
+			"7": true,
+			"9": true,
+			"10": true
+		},
+		"purposeOneTreatment": false,
+        "publisherCountryCode": "BL",
+        "maxVendorId": 809,
+		"vendorConsents": {
+			"2": true,
+			"4": true,
+			"6": true,
+			"8": true,
+			"12": true,
+			"13": true,
+			"14": true,
+			"18": true,
+			"20": true,
+			"22": true,
+			"23": true,
+			"26": true,
+			"28": true,
+			"30": true,
+			"31": true,
+			"32": true,
+			"33": true,
+			"34": true,
+			"40": true,
+			"41": true,
+			"42": true,
+			"45": true,
+			"49": true,
+			"50": true,
+			"51": true,
+			"52": true,
+			"53": true,
+			"57": true,
+			"59": true,
+			"61": true,
+			"62": true,
+			"63": true,
+			"65": true,
+			"66": true,
+			"67": true,
+			"70": true,
+			"71": true,
+			"72": true,
+			"73": true,
+			"76": true,
+			"84": true,
+			"85": true,
+			"86": true,
+			"88": true,
+			"89": true,
+			"90": true,
+			"91": true,
+			"92": true,
+			"97": true,
+			"100": true,
+			"102": true,
+			"108": true,
+			"109": true,
+			"110": true,
+			"111": true,
+			"119": true,
+			"126": true,
+			"127": true,
+			"128": true,
+			"129": true,
+			"130": true,
+			"131": true,
+			"133": true,
+			"134": true,
+			"136": true,
+			"137": true,
+			"139": true,
+			"141": true,
+			"142": true,
+			"144": true,
+			"145": true,
+			"153": true,
+			"154": true,
+			"158": true,
+			"161": true,
+			"162": true,
+			"163": true,
+			"165": true,
+			"168": true,
+			"173": true,
+			"174": true,
+			"177": true,
+			"178": true,
+			"183": true,
+			"184": true,
+			"185": true,
+			"194": true,
+			"199": true,
+			"202": true,
+			"203": true,
+			"205": true,
+			"206": true,
+			"209": true,
+			"210": true,
+			"211": true,
+			"212": true,
+			"215": true,
+			"216": true,
+			"223": true,
+			"226": true,
+			"228": true,
+			"238": true,
+			"239": true,
+			"240": true,
+			"241": true,
+			"242": true,
+			"244": true,
+			"246": true,
+			"248": true,
+			"249": true,
+			"251": true,
+			"252": true,
+			"256": true,
+			"259": true,
+			"262": true,
+			"263": true,
+			"264": true,
+			"270": true,
+			"275": true,
+			"277": true,
+			"280": true,
+			"284": true,
+			"289": true,
+			"290": true,
+			"293": true,
+			"301": true,
+			"303": true,
+			"310": true,
+			"312": true,
+			"314": true,
+			"315": true,
+			"316": true,
+			"317": true,
+			"318": true,
+			"319": true,
+			"328": true,
+			"329": true,
+			"331": true,
+			"337": true,
+			"343": true,
+			"347": true,
+			"351": true,
+			"354": true,
+			"358": true,
+			"360": true,
+			"361": true,
+			"368": true,
+			"371": true,
+			"373": true,
+			"374": true,
+			"377": true,
+			"380": true,
+			"381": true,
+			"382": true,
+			"385": true,
+			"387": true,
+			"388": true,
+			"408": true,
+			"409": true,
+			"413": true,
+			"416": true,
+			"422": true,
+			"423": true,
+			"424": true,
+			"434": true,
+			"436": true,
+			"438": true,
+			"439": true,
+			"440": true,
+			"447": true,
+			"448": true,
+			"450": true,
+			"468": true,
+			"475": true,
+			"479": true,
+			"482": true,
+			"486": true,
+			"488": true,
+			"490": true,
+			"491": true,
+			"493": true,
+			"495": true,
+			"498": true,
+			"501": true,
+			"507": true,
+			"509": true,
+			"511": true,
+			"512": true,
+			"516": true,
+			"517": true,
+			"521": true,
+			"524": true,
+			"527": true,
+			"528": true,
+			"531": true,
+			"535": true,
+			"536": true,
+			"543": true,
+			"545": true,
+			"546": true,
+			"549": true,
+			"554": true,
+			"556": true,
+			"561": true,
+			"565": true,
+			"568": true,
+			"571": true,
+			"574": true,
+			"577": true,
+			"580": true,
+			"584": true,
+			"587": true,
+			"593": true,
+			"598": true,
+			"601": true,
+			"607": true,
+			"609": true,
+			"613": true,
+			"614": true,
+			"617": true,
+			"618": true,
+			"620": true,
+			"621": true,
+			"624": true,
+			"625": true,
+			"628": true,
+			"630": true,
+			"631": true,
+			"638": true,
+			"639": true,
+			"644": true,
+			"645": true,
+			"647": true,
+			"648": true,
+			"650": true,
+			"655": true,
+			"656": true,
+			"657": true,
+			"659": true,
+			"662": true,
+			"666": true,
+			"667": true,
+			"668": true,
+			"672": true,
+			"674": true,
+			"676": true,
+			"678": true,
+			"685": true,
+			"690": true,
+			"694": true,
+			"702": true,
+			"703": true,
+			"707": true,
+			"708": true,
+			"709": true,
+			"713": true,
+			"714": true,
+			"721": true,
+			"722": true,
+			"725": true,
+			"727": true,
+			"728": true,
+			"734": true,
+			"735": true,
+			"736": true,
+			"738": true,
+			"739": true,
+			"740": true,
+			"741": true,
+			"744": true,
+			"745": true,
+			"761": true,
+			"762": true,
+			"764": true,
+			"765": true,
+			"769": true,
+			"770": true,
+			"771": true,
+			"773": true,
+			"775": true,
+			"777": true,
+			"778": true,
+			"780": true,
+			"781": true,
+			"782": true,
+			"783": true,
+			"785": true,
+			"787": true,
+			"788": true,
+			"789": true,
+			"790": true,
+			"791": true,
+			"792": true,
+			"795": true,
+			"796": true,
+			"797": true,
+			"799": true,
+			"801": true,
+			"802": true,
+			"803": true,
+			"807": true,
+			"809": true
+        },
+        "maxVendorLegitimateInterestsId": 807,
+		"vendorLegitimateInterests": {
+			"2": true,
+			"11": true,
+			"14": true,
+			"15": true,
+			"20": true,
+			"28": true,
+			"30": true,
+			"32": true,
+			"33": true,
+			"49": true,
+			"52": true,
+			"57": true,
+			"60": true,
+			"62": true,
+			"67": true,
+			"68": true,
+			"76": true,
+			"79": true,
+			"85": true,
+			"86": true,
+			"88": true,
+			"93": true,
+			"95": true,
+			"98": true,
+			"102": true,
+			"104": true,
+			"111": true,
+			"115": true,
+			"122": true,
+			"137": true,
+			"138": true,
+			"145": true,
+			"152": true,
+			"154": true,
+			"163": true,
+			"164": true,
+			"165": true,
+			"177": true,
+			"183": true,
+			"185": true,
+			"190": true,
+			"194": true,
+			"195": true,
+			"200": true,
+			"202": true,
+			"205": true,
+			"209": true,
+			"212": true,
+			"215": true,
+			"218": true,
+			"223": true,
+			"224": true,
+			"226": true,
+			"231": true,
+			"234": true,
+			"238": true,
+			"239": true,
+			"240": true,
+			"246": true,
+			"251": true,
+			"252": true,
+			"255": true,
+			"256": true,
+			"259": true,
+			"263": true,
+			"264": true,
+			"273": true,
+			"279": true,
+			"280": true,
+			"282": true,
+			"310": true,
+			"318": true,
+			"319": true,
+			"323": true,
+			"331": true,
+			"336": true,
+			"343": true,
+			"361": true,
+			"371": true,
+			"373": true,
+			"384": true,
+			"385": true,
+			"409": true,
+			"428": true,
+			"431": true,
+			"436": true,
+			"444": true,
+			"455": true,
+			"467": true,
+			"475": true,
+			"484": true,
+			"511": true,
+			"528": true,
+			"539": true,
+			"543": true,
+			"544": true,
+			"546": true,
+			"554": true,
+			"559": true,
+			"577": true,
+			"580": true,
+			"590": true,
+			"596": true,
+			"599": true,
+			"610": true,
+			"620": true,
+			"630": true,
+			"645": true,
+			"647": true,
+			"649": true,
+			"657": true,
+			"664": true,
+			"667": true,
+			"678": true,
+			"682": true,
+			"688": true,
+			"694": true,
+			"697": true,
+			"699": true,
+			"709": true,
+			"720": true,
+			"721": true,
+			"729": true,
+			"730": true,
+			"738": true,
+			"749": true,
+			"751": true,
+			"770": true,
+			"774": true,
+			"777": true,
+			"781": true,
+			"783": true,
+			"786": true,
+			"790": true,
+			"792": true,
+			"798": true,
+			"801": true,
+			"807": true
+		},
+		"publisherRestrictions": {
+			"1": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"2": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"6": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"8": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"10": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"11": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"14": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"18": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"20": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"21": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"23": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"25": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"28": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"30": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"32": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"34": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"39": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"40": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"42": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"44": [
+				{
+					"purpose": 6,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"45": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"49": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"50": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"52": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"59": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"60": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"62": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"65": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"66": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"67": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"68": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"70": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"71": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"73": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"76": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"77": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"79": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"80": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"82": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"83": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"84": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"85": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"86": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"88": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"91": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"92": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"98": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"102": [
+				{
+					"purpose": 5,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"109": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"111": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"115": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"119": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"120": [
+				{
+					"purpose": 5,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"122": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"132": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"134": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"136": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"137": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"139": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"142": [
+				{
+					"purpose": 5,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"147": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"149": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"150": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"152": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"153": [
+				{
+					"purpose": 6,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"154": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"163": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"164": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"165": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"173": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"177": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"178": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"184": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"195": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"200": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"202": [
+				{
+					"purpose": 5,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"203": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"209": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"210": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"212": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"213": [
+				{
+					"purpose": 6,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"217": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"223": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"224": [
+				{
+					"purpose": 6,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"226": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"227": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"228": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"231": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"235": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"239": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"241": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"242": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"246": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"248": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"249": [
+				{
+					"purpose": 5,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"251": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"252": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"253": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"259": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"264": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"280": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"282": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"284": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"294": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"297": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"299": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"301": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"302": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"312": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"314": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"323": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"331": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"333": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"336": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"343": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"345": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"347": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"350": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"351": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"354": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"359": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"360": [
+				{
+					"purpose": 5,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"361": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"371": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"374": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"377": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"382": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"388": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"394": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"408": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"412": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"424": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"428": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"436": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"438": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"440": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"444": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"448": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"455": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"467": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"468": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"482": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"488": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"490": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"493": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"498": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"507": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"508": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"509": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"530": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"539": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"546": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"554": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"559": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"570": [
+				{
+					"purpose": 5,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"571": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"577": [
+				{
+					"purpose": 6,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"580": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"584": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"587": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"593": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"602": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"606": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"610": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"613": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"620": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"630": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"644": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"647": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"657": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"658": [
+				{
+					"purpose": 4,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"663": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"665": [
+				{
+					"purpose": 9,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"666": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"667": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"678": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"681": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"684": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"687": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"688": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"694": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"702": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"708": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"709": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"713": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"721": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"728": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"729": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"730": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"736": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"738": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"740": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"744": [
+				{
+					"purpose": 3,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"747": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"748": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"749": [
+				{
+					"purpose": 10,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"750": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"751": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"753": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"754": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"755": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"758": [
+				{
+					"purpose": 8,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"766": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"770": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"774": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"776": [
+				{
+					"purpose": 2,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"777": [
+				{
+					"purpose": 4,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"781": [
+				{
+					"purpose": 7,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"783": [
+				{
+					"purpose": 2,
+					"isAllowed": true,
+					"isConsentRequired": true,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"786": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"792": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"793": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"796": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"797": [
+				{
+					"purpose": 7,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"798": [
+				{
+					"purpose": 9,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"800": [
+				{
+					"purpose": 10,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			],
+			"802": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"804": [
+				{
+					"purpose": 3,
+					"isAllowed": true,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": true
+				}
+			],
+			"807": [
+				{
+					"purpose": 8,
+					"isAllowed": false,
+					"isConsentRequired": false,
+					"isLegitimateInterestRequired": false
+				}
+			]
+		}
+	},
+	"disclosedVendors": {
+		"1": true,
+		"2": true,
+		"4": true,
+		"6": true,
+		"7": true,
+		"8": true,
+		"10": true,
+		"11": true,
+		"12": true,
+		"13": true,
+		"14": true,
+		"15": true,
+		"16": true,
+		"18": true,
+		"20": true,
+		"21": true,
+		"22": true,
+		"23": true,
+		"24": true,
+		"25": true,
+		"26": true,
+		"28": true,
+		"30": true,
+		"31": true,
+		"32": true,
+		"33": true,
+		"34": true,
+		"36": true,
+		"37": true,
+		"39": true,
+		"40": true,
+		"41": true,
+		"42": true,
+		"44": true,
+		"45": true,
+		"47": true,
+		"49": true,
+		"50": true,
+		"51": true,
+		"52": true,
+		"53": true,
+		"57": true,
+		"58": true,
+		"59": true,
+		"60": true,
+		"61": true,
+		"62": true,
+		"63": true,
+		"65": true,
+		"66": true,
+		"67": true,
+		"68": true,
+		"69": true,
+		"70": true,
+		"71": true,
+		"72": true,
+		"73": true,
+		"76": true,
+		"77": true,
+		"78": true,
+		"79": true,
+		"80": true,
+		"82": true,
+		"83": true,
+		"84": true,
+		"85": true,
+		"86": true,
+		"88": true,
+		"89": true,
+		"90": true,
+		"91": true,
+		"92": true,
+		"93": true,
+		"94": true,
+		"95": true,
+		"97": true,
+		"98": true,
+		"100": true,
+		"101": true,
+		"102": true,
+		"104": true,
+		"108": true,
+		"109": true,
+		"110": true,
+		"111": true,
+		"114": true,
+		"115": true,
+		"119": true,
+		"120": true,
+		"122": true,
+		"124": true,
+		"126": true,
+		"127": true,
+		"128": true,
+		"129": true,
+		"130": true,
+		"131": true,
+		"132": true,
+		"133": true,
+		"134": true,
+		"136": true,
+		"137": true,
+		"138": true,
+		"139": true,
+		"140": true,
+		"141": true,
+		"142": true,
+		"143": true,
+		"144": true,
+		"145": true,
+		"147": true,
+		"149": true,
+		"150": true,
+		"152": true,
+		"153": true,
+		"154": true,
+		"155": true,
+		"157": true,
+		"158": true,
+		"160": true,
+		"161": true,
+		"162": true,
+		"163": true,
+		"164": true,
+		"165": true,
+		"167": true,
+		"168": true,
+		"173": true,
+		"174": true,
+		"177": true,
+		"178": true,
+		"179": true,
+		"183": true,
+		"184": true,
+		"185": true,
+		"190": true,
+		"192": true,
+		"193": true,
+		"194": true,
+		"195": true,
+		"199": true,
+		"200": true,
+		"202": true,
+		"203": true,
+		"205": true,
+		"206": true,
+		"209": true,
+		"210": true,
+		"211": true,
+		"212": true,
+		"213": true,
+		"215": true,
+		"216": true,
+		"217": true,
+		"218": true,
+		"223": true,
+		"224": true,
+		"226": true,
+		"227": true,
+		"228": true,
+		"231": true,
+		"234": true,
+		"235": true,
+		"238": true,
+		"239": true,
+		"240": true,
+		"241": true,
+		"242": true,
+		"243": true,
+		"244": true,
+		"246": true,
+		"248": true,
+		"249": true,
+		"250": true,
+		"251": true,
+		"252": true,
+		"253": true,
+		"254": true,
+		"255": true,
+		"256": true,
+		"259": true,
+		"262": true,
+		"263": true,
+		"264": true,
+		"265": true,
+		"270": true,
+		"272": true,
+		"273": true,
+		"274": true,
+		"275": true,
+		"277": true,
+		"278": true,
+		"279": true,
+		"280": true,
+		"281": true,
+		"282": true,
+		"284": true,
+		"285": true,
+		"289": true,
+		"290": true,
+		"293": true,
+		"294": true,
+		"297": true,
+		"299": true,
+		"301": true,
+		"302": true,
+		"303": true,
+		"304": true,
+		"310": true,
+		"311": true,
+		"312": true,
+		"314": true,
+		"315": true,
+		"316": true,
+		"317": true,
+		"318": true,
+		"319": true,
+		"323": true,
+		"325": true,
+		"328": true,
+		"329": true,
+		"331": true,
+		"333": true,
+		"336": true,
+		"337": true,
+		"343": true,
+		"345": true,
+		"347": true,
+		"350": true,
+		"351": true,
+		"354": true,
+		"358": true,
+		"359": true,
+		"360": true,
+		"361": true,
+		"365": true,
+		"368": true,
+		"371": true,
+		"373": true,
+		"374": true,
+		"375": true,
+		"377": true,
+		"380": true,
+		"381": true,
+		"382": true,
+		"384": true,
+		"385": true,
+		"387": true,
+		"388": true,
+		"394": true,
+		"402": true,
+		"408": true,
+		"409": true,
+		"410": true,
+		"412": true,
+		"413": true,
+		"415": true,
+		"416": true,
+		"418": true,
+		"422": true,
+		"423": true,
+		"424": true,
+		"428": true,
+		"429": true,
+		"431": true,
+		"434": true,
+		"435": true,
+		"436": true,
+		"438": true,
+		"439": true,
+		"440": true,
+		"444": true,
+		"447": true,
+		"448": true,
+		"450": true,
+		"455": true,
+		"466": true,
+		"467": true,
+		"468": true,
+		"475": true,
+		"479": true,
+		"482": true,
+		"484": true,
+		"486": true,
+		"488": true,
+		"490": true,
+		"491": true,
+		"493": true,
+		"495": true,
+		"498": true,
+		"501": true,
+		"502": true,
+		"505": true,
+		"507": true,
+		"508": true,
+		"509": true,
+		"511": true,
+		"512": true,
+		"516": true,
+		"517": true,
+		"521": true,
+		"524": true,
+		"527": true,
+		"528": true,
+		"530": true,
+		"531": true,
+		"535": true,
+		"536": true,
+		"539": true,
+		"543": true,
+		"544": true,
+		"545": true,
+		"546": true,
+		"549": true,
+		"550": true,
+		"553": true,
+		"554": true,
+		"556": true,
+		"559": true,
+		"561": true,
+		"565": true,
+		"568": true,
+		"569": true,
+		"570": true,
+		"571": true,
+		"573": true,
+		"574": true,
+		"577": true,
+		"580": true,
+		"584": true,
+		"587": true,
+		"590": true,
+		"591": true,
+		"593": true,
+		"596": true,
+		"598": true,
+		"599": true,
+		"601": true,
+		"602": true,
+		"606": true,
+		"607": true,
+		"609": true,
+		"610": true,
+		"612": true,
+		"613": true,
+		"614": true,
+		"615": true,
+		"617": true,
+		"618": true,
+		"620": true,
+		"621": true,
+		"624": true,
+		"625": true,
+		"626": true,
+		"628": true,
+		"630": true,
+		"631": true,
+		"638": true,
+		"639": true,
+		"644": true,
+		"645": true,
+		"646": true,
+		"647": true,
+		"648": true,
+		"649": true,
+		"650": true,
+		"652": true,
+		"655": true,
+		"656": true,
+		"657": true,
+		"658": true,
+		"659": true,
+		"662": true,
+		"663": true,
+		"664": true,
+		"665": true,
+		"666": true,
+		"667": true,
+		"668": true,
+		"672": true,
+		"674": true,
+		"675": true,
+		"676": true,
+		"678": true,
+		"681": true,
+		"682": true,
+		"683": true,
+		"684": true,
+		"685": true,
+		"686": true,
+		"687": true,
+		"688": true,
+		"690": true,
+		"691": true,
+		"694": true,
+		"697": true,
+		"699": true,
+		"702": true,
+		"703": true,
+		"706": true,
+		"707": true,
+		"708": true,
+		"709": true,
+		"711": true,
+		"712": true,
+		"713": true,
+		"714": true,
+		"716": true,
+		"719": true,
+		"720": true,
+		"721": true,
+		"722": true,
+		"723": true,
+		"725": true,
+		"727": true,
+		"728": true,
+		"729": true,
+		"730": true,
+		"731": true,
+		"732": true,
+		"733": true,
+		"734": true,
+		"735": true,
+		"736": true,
+		"737": true,
+		"738": true,
+		"739": true,
+		"740": true,
+		"741": true,
+		"742": true,
+		"743": true,
+		"744": true,
+		"745": true,
+		"746": true,
+		"747": true,
+		"748": true,
+		"749": true,
+		"750": true,
+		"751": true,
+		"753": true,
+		"754": true,
+		"755": true,
+		"757": true,
+		"758": true,
+		"759": true,
+		"760": true,
+		"761": true,
+		"762": true,
+		"764": true,
+		"765": true,
+		"766": true,
+		"767": true,
+		"768": true,
+		"769": true,
+		"770": true,
+		"771": true,
+		"772": true,
+		"773": true,
+		"774": true,
+		"775": true,
+		"776": true,
+		"777": true,
+		"778": true,
+		"779": true,
+		"780": true,
+		"781": true,
+		"782": true,
+		"783": true,
+		"784": true,
+		"785": true,
+		"786": true,
+		"787": true,
+		"788": true,
+		"789": true,
+		"790": true,
+		"791": true,
+		"792": true,
+		"793": true,
+		"794": true,
+		"795": true,
+		"796": true,
+		"797": true,
+		"798": true,
+		"799": true,
+		"800": true,
+		"801": true,
+		"802": true,
+		"803": true,
+		"804": true,
+		"805": true,
+		"807": true,
+		"808": true,
+		"809": true,
+		"811": true
+	}
+}

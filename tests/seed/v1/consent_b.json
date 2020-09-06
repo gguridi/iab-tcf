@@ -1,0 +1,15 @@
+{
+    "consent": "BONMj34ONMj34ABACDENALqAAAAAplY",
+    "maxVendorId": 10,
+    "created": "2018-05-03T20:10:00",
+    "lastUpdated": "2018-05-03T20:10:00",
+    "version": 1,
+    "vendorList": null,
+    "vendorListVersion": 11,
+    "cmpId": 1,
+    "cmpVersion": 2,
+    "consentScreen": 3,
+    "consentLanguage": "EN",
+    "allowedPurposeIds": [1, 3, 5],
+    "allowedVendorIds": [1, 2, 5, 7, 9, 10]
+}
