@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/gguridi/iab-tcf.svg?branch=master)](https://travis-ci.org/gguridi/iab-tcf)
 [![codecov](https://codecov.io/gh/gguridi/iab-tcf/branch/master/graph/badge.svg)](https://codecov.io/gh/gguridi/iab-tcf)
 ![Releasing](https://github.com/gguridi/iab-tcf/workflows/Releasing/badge.svg)
+[![Documentation Status](https://readthedocs.org/projects/iab-tcf/badge/?version=latest)](https://iab-tcf.readthedocs.io/en/latest/?badge=latest)
+
 
 A Python implementation of the IAB consent strings (v1.1 and v2)
 
@@ -12,6 +14,21 @@ Install and update using pip:
 
 ```bash
 pip install -U iab-tcf
+```
+
+# Documentation
+
+[Documentation](https://iab-tcf.readthedocs.io/en/stable/) of this package can be found at:
+
+* https://iab-tcf.readthedocs.io/en/stable/
+
+To generate the documentation locally:
+
+```bash
+pip install sphinx sphinx_rtd_theme
+cd docs/
+sphinx-apidoc -f -o . ../iab_tcf/
+make html
 ```
 
 # A Simple Example
