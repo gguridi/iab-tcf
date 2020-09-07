@@ -1,9 +1,8 @@
-name: Development Version
+name: Releasing
 
 on:
-  push:
-    branches:
-    - master
+  release:
+    types: [created]
 
 jobs:
   tests:
@@ -13,6 +12,8 @@ jobs:
         python-version: [3.6, 3.7, 3.8]
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -27,9 +28,7 @@ jobs:
     needs: tests
     steps:
     - uses: actions/checkout@v2
-      with:
-        fetch-depth: '0'
-    - name: Set up Python
+    - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
         python-version: 3.x
@@ -42,4 +41,4 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.TESTPYPI_TOKEN }}
       run: |
         python setup.py clean sdist bdist_wheel
-        twine upload --skip-existing dist/*
+        twine upload dist/*
