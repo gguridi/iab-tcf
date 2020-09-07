@@ -33,6 +33,8 @@ jobs:
         python-version: 3.x
     - name: Fetch tags
       run: git fetch --tags
+    - name: Describe
+      run: git describe --dirty      
     - name: Install dependencies
       run: pip install setuptools wheel twine
     - name: Build and publish
