@@ -1,0 +1,4 @@
+include requirements.txt
+include RELEASE-VERSION
+recursive-exclude * test_* tests/*
+global-exclude __pycache__  *.pyc
