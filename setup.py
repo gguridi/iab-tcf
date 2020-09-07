@@ -1,3 +1,4 @@
+import os
 import subprocess
 import logging
 import re
@@ -15,6 +16,10 @@ logging.basicConfig(format="%(asctime)-15s %(clientip)s %(user)-8s %(message)s")
 logger = logging.getLogger(__name__)
 
 
+def get_version_from_envvar() -> str:
+    return os.getenv("RELEASE_VERSION")
+
+
 def get_version_from_file() -> str:
     try:
         return Path(release_file).read_text().strip()
@@ -24,7 +29,7 @@ def get_version_from_file() -> str:
 
 def get_version_from_git() -> str:
     try:
-        version = subprocess.check_output(["git", "describe"])
+        version = subprocess.check_output(["git", "describe", "-dirty"])
         git_version = version.strip().decode()
         return re.sub(r"-.*$", "-dev" + str(int(time())), git_version)
     except Exception as e:
@@ -36,13 +41,18 @@ def write_version_to_file(version: str):
 
 
 def get_version() -> str:
+    envvar_version = get_version_from_envvar()
     file_version = get_version_from_file()
     git_version = get_version_from_git()
-    if not file_version and not git_version:
+    if not envvar_version and not file_version and not git_version:
         raise Exception("Unable to get the package version.")
+    if envvar_version and envvar_version != file_version:
+        write_version_to_file(envvar_version)
+        return envvar_version
     if git_version and git_version != file_version:
         write_version_to_file(git_version)
-    return git_version or file_version
+        return git_version
+    return file_version
 
 
 def get_requirements() -> List[str]:
