@@ -34,7 +34,7 @@ jobs:
     - name: Fetch tags
       run: git fetch --tags
     - name: Describe
-      run: git describe --dirty      
+      run: git describe --dirty --always
     - name: Install dependencies
       run: pip install setuptools wheel twine
     - name: Build and publish
