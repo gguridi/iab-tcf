@@ -1,0 +1,17 @@
+language: python
+
+cache: pip
+
+python:
+    - "3.6"
+    - "3.7"
+    - "3.8"
+
+install:
+    - pip install -r requirements-test.txt
+
+script:
+    - pytest -v --cov=./iab_tcf
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
