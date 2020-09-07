@@ -62,6 +62,8 @@ def get_requirements() -> List[str]:
 setup(
     name="iab-tcf",
     description="A Python implementation of the IAB consent strings (v1.1 and v2)",
+    long_description=Path("README.md").read_text(),
+    long_description_content_type="text/markdown",
     author="Gorka Guridi",
     url="https://github.com/gguridi/iab-tcf",
     author_email="gorka.guridi@gmail.com",
