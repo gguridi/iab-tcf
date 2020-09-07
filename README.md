@@ -2,6 +2,14 @@
 
 A Python implementation of the IAB consent strings (v1.1 and v2)
 
+# Installing
+
+Install and update using pip:
+
+```bash
+pip install -U iab-tcf
+```
+
 # A Simple Example
 
 In order to decode a v1.1 or v2 consent string automatically we can do:
