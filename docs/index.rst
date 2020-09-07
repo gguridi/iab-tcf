@@ -6,7 +6,7 @@ iab-tcf
 A Python implementation of the IAB consent strings (v1.1 and v2)
 
 The technical specifications for the IAB Europe Transparency and Consent Framework (TCF)
- can be found in their `InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework <https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework>`
+ can be found in their `InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework <https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework>`_
  repository.
 
 IAB Europe Transparency and Consent Framework v1.1
