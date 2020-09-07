@@ -29,7 +29,7 @@ def get_version_from_file() -> str:
 
 def get_version_from_git() -> str:
     try:
-        version = subprocess.check_output(["git", "describe", "-dirty"])
+        version = subprocess.check_output(["git", "describe", "--dirty"])
         git_version = version.strip().decode()
         return re.sub(r"-.*$", "-dev" + str(int(time())), git_version)
     except Exception as e:
