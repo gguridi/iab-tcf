@@ -24,7 +24,7 @@ def get_version_from_file() -> str:
 
 def get_version_from_git() -> str:
     try:
-        version = subprocess.check_output(["git", "describe", "--dirty"])
+        version = subprocess.check_output(["git", "describe"])
         git_version = version.strip().decode()
         return re.sub(r"-.*$", "-dev" + str(int(time())), git_version)
     except Exception as e:
@@ -39,7 +39,7 @@ def get_version() -> str:
     file_version = get_version_from_file()
     git_version = get_version_from_git()
     if not file_version and not git_version:
-        raise Exception("Unable to get the package version")
+        raise Exception("Unable to get the package version.")
     if git_version and git_version != file_version:
         write_version_to_file(git_version)
     return git_version or file_version
