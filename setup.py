@@ -26,7 +26,7 @@ def get_version_from_git() -> str:
     try:
         version = subprocess.check_output(["git", "describe", "--dirty", "--always"])
         git_version = version.strip().decode()
-        return re.sub(r"-.*dirty$", "-dev" + str(int(time())), git_version)
+        return re.sub(r"-.*$", "-dev" + str(int(time())), git_version)
     except Exception as e:
         logger.exception(f"Unable to load version from git {e}")
 
