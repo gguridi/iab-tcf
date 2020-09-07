@@ -1,5 +1,7 @@
 import subprocess
 import logging
+import re
+from time import time
 from typing import List
 from setuptools import setup, find_packages
 from pathlib import Path
@@ -22,8 +24,9 @@ def get_version_from_file() -> str:
 
 def get_version_from_git() -> str:
     try:
-        version = subprocess.check_output(["git", "describe", "--dirty"])
-        return version.strip().decode().replace("dirty", "dev")
+        version = subprocess.check_output(["git", "describe", "--dirty", "--always"])
+        git_version = version.strip().decode()
+        return re.sub(r"-.*dirty$", "-dev" + str(int(time())), git_version)
     except Exception as e:
         logger.exception(f"Unable to load version from git {e}")
 
