@@ -1,6 +1,18 @@
 # iab-tcf
 
+[![Build Status](https://travis-ci.org/gguridi/iab-tcf.svg?branch=master)](https://travis-ci.org/gguridi/iab-tcf)
+[![codecov](https://codecov.io/gh/gguridi/iab-tcf/branch/master/graph/badge.svg)](https://codecov.io/gh/gguridi/iab-tcf)
+![Releasing](https://github.com/gguridi/iab-tcf/workflows/Releasing/badge.svg)
+
 A Python implementation of the IAB consent strings (v1.1 and v2)
+
+# Installing
+
+Install and update using pip:
+
+```bash
+pip install -U iab-tcf
+```
 
 # A Simple Example
 
