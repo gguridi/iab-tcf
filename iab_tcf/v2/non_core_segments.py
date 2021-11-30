@@ -1,6 +1,7 @@
-from typing import List, Dict, Tuple
-from .publisher_tc import PubTCEntry
+from typing import Dict
+
 from ..bits import Reader
+from .publisher_tc import PubTCEntry
 
 
 class NonCoreSegment:

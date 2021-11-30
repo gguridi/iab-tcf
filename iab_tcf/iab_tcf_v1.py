@@ -1,6 +1,5 @@
-from typing import List
-from .iab_tcf import base64_decode
 from .bits import Reader
+from .iab_tcf import base64_decode
 
 
 class ConsentV1:

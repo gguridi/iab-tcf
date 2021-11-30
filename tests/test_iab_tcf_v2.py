@@ -1,12 +1,9 @@
-import os
-import json
-import base64
-import pytest
-from pathlib import Path
 from typing import Dict
-from iab_tcf.iab_tcf import base64_decode
-from iab_tcf.iab_tcf_v2 import decode_v2, ConsentV2
-from .conftest import mapbit, mapbit_from_dict, load_seed
+
+import pytest
+from iab_tcf.iab_tcf_v2 import ConsentV2, decode_v2
+
+from .conftest import load_seed, mapbit_from_dict
 
 
 @pytest.fixture(
@@ -14,6 +11,7 @@ from .conftest import mapbit, mapbit_from_dict, load_seed
         "./seed/v2/consent_a.json",
         "./seed/v2/consent_b.json",
         "./seed/v2/consent_c.json",
+        "./seed/v2/consent_d.json",
     ]
 )
 def info(request):

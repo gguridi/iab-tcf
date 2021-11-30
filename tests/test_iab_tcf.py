@@ -1,5 +1,6 @@
 import pytest
 from iab_tcf import decode
+
 from .conftest import load_seed
 
 
