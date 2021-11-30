@@ -1,7 +1,7 @@
-import os
 import json
+import os
 from pathlib import Path
-from typing import List, Dict
+from typing import Dict, List
 
 
 def load_seed(file):
@@ -23,4 +23,5 @@ def mapbit(length: int, trues: List = [], falses: List = []):
 
 def mapbit_from_dict(length: int, trues: Dict) -> Dict[int, bool]:
     trues = [int(i) for i, _ in trues.items()]
-    return mapbit(length or len(trues), trues=trues)
+    falses = [i + 1 for i in range(length)]
+    return mapbit(length or len(trues), trues=trues, falses=falses)

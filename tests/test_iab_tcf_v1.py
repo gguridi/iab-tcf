@@ -1,7 +1,7 @@
 import pytest
-from iab_tcf.iab_tcf import base64_decode
 from iab_tcf.iab_tcf_v1 import ConsentV1, decode_v1
-from .conftest import load_seed, mapbit, mapbit_from_dict
+
+from .conftest import load_seed, mapbit
 
 
 @pytest.fixture(

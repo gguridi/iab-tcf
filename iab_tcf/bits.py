@@ -1,7 +1,8 @@
-from typing import List, Dict, Tuple
+from datetime import datetime
+from typing import Dict, List, Tuple
+
 from bitarray import bitarray
 from bitarray.util import ba2int
-from datetime import datetime
 
 
 class Reader:
@@ -37,7 +38,8 @@ class Reader:
 
         :param n: Number of bits to retrieve and transform into int.
         """
-        return ba2int(self.read_bits(n))
+        bits = self.read_bits(n)
+        return ba2int(bits) if bits else 0
 
     def read_time(self) -> datetime:
         """Reads 36 bits (the length TCF uses for timestamps) and transforms
@@ -83,7 +85,7 @@ class Reader:
         :param n: Number of ranges we are going to process.
         """
         ranges = []
-        for i in range(n):
+        for _ in range(n):
             is_range = self.read_bool()
             start = self.read_int(16)
             end = start if not is_range else self.read_int(16)

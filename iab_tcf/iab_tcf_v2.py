@@ -1,9 +1,9 @@
-import json
-from typing import List, Tuple
+from typing import List
+
 from .bits import Reader
 from .iab_tcf import base64_decode, segments
-from .v2.publisher_restriction import PubRestrictionEntry
 from .v2.non_core_segments import NonCoreSegment
+from .v2.publisher_restriction import PubRestrictionEntry
 
 
 class ConsentV2:
