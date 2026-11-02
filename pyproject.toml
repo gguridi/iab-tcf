@@ -1,0 +1,45 @@
+[project]
+name = "iab-tcf"
+description = "A Python implementation of the IAB consent strings (v1.1 and v2)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Gorka Guridi", email = "gorka.guridi@gmail.com" }]
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "bitarray-hardbyte>=2.3.8",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/gguridi/iab-tcf"
+Documentation = "https://iab-tcf.readthedocs.io/en/stable/"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-cov>=6.0.0",
+    "black>=25.0.0",
+]
+docs = [
+    "sphinx>=7.0.0",
+    "sphinx-rtd-theme>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+raw-options = { local_scheme = "no-local-version" }
+
+[tool.hatch.build.targets.sdist]
+include = ["iab_tcf/", "README.md", "LICENSE"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["iab_tcf"]

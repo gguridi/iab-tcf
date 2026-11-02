@@ -1,6 +1,6 @@
 # iab-tcf
 
-[![Build Status](https://travis-ci.org/gguridi/iab-tcf.svg?branch=master)](https://travis-ci.org/gguridi/iab-tcf)
+![Testing](https://github.com/gguridi/iab-tcf/workflows/Testing/badge.svg)
 [![codecov](https://codecov.io/gh/gguridi/iab-tcf/branch/master/graph/badge.svg)](https://codecov.io/gh/gguridi/iab-tcf)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/6e6a8a02a6b14c5998b29bbe06327c87)](https://www.codacy.com/gh/gguridi/iab-tcf/dashboard)
 ![Releasing](https://github.com/gguridi/iab-tcf/workflows/Releasing/badge.svg)
@@ -24,10 +24,10 @@ found at [readthedocs.io](https://iab-tcf.readthedocs.io/en/stable/).
 To generate the documentation locally:
 
 ```bash
-pip install sphinx sphinx_rtd_theme
+uv sync --group docs
 cd docs/
-sphinx-apidoc -f -o . ../iab_tcf/
-make html
+uv run sphinx-apidoc -f -o . ../iab_tcf/
+uv run make html
 ```
 
 ## A Simple Example
@@ -55,11 +55,12 @@ print(consent.version) # prints 2
 
 ## Tests
 
-In order to run the tests locally we can do:
+The project is managed with [uv](https://docs.astral.sh/uv/). In order to run
+the tests locally we can do:
 
 ```bash
-pip install -r requirements-test.txt
-pytest -v .
+uv sync
+uv run pytest -v .
 ```
 
 ## Thanks
